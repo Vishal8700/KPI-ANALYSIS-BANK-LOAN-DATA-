@@ -18,7 +18,7 @@ export default function AnalyticsDashboard() {
             Comprehensive financial analysis and risk assessment dashboard
           </p>
           <Badge variant="secondary" className="mt-4">
-            Real-time Data • Updated Nov 2021
+            Bank Data • Updated Dec 2021
           </Badge>
         </div>
 
