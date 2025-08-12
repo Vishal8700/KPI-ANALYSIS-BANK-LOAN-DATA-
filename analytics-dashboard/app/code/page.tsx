@@ -64,14 +64,13 @@ export default function CodeView() {
             ) : (
               <div className="w-full">
                 {/* Use a more reliable embed approach */}
-                <iframe 
-                  src="https://nbviewer.org/github/Vishal8700/KPI-ANALYSIS-BANK-LOAN-DATA-/blob/main/Bank_Loan_Analysis.ipynb"
-                  width="100%" 
-                  height="800px" 
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+               <iframe 
+                src="https://nbviewer.org/url/github.com/Vishal8700/KPI-ANALYSIS-BANK-LOAN-DATA-/raw/main/Bank_Loan_Analysis.ipynb"
+                width="100%"
+                height="800" 
+                frameborder="0">
+            </iframe>
+
                 
                 {/* Only show fallback if iframe fails */}
                 <div className="mt-8">
